@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Keshav Mahavidyalaya</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Bootstrap JQuerry -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap J -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--External css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <script>
+        function Navstate(x) {
+            var width = document.getElementById("mySidenav").offsetWidth;
+            x.classList.toggle("change");
+            if (width == 250) {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+
+            } else {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+        }
+    </script>
+    <div class="sidenav" id="mySidenav">
+        <div>
+            <img src="ragging.jpg" alt="" style="object-fit:scale-down;" width="250px">
+        </div>
+        <h4>EXPLORE</h4>
+        <ul>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspAnti-Ragging Committee</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspAcademic Calendar</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspAttendance</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspAlumni</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspCourses Time Table</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspFaculty Time Table</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspGrievance Redressal</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspGrievance Redressal Committee</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspICC</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspInternal Assessment</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspNodal Officer for redressal of Grievances of Students</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspNodal Public Grievances Officer</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspNews Article</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspPhoto Gallery</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspProctorial Committee</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspRight To Information (RTI)</a></li>
+            <li><a href=" " target=" "><i class="fa fa-check"></i>&nbsp&nbspTender</a></li>
+        </ul>
+        <div class="social">
+            <h5>SHARE</h5>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="#" class="fa fa-facebook"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="fa fa-google"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="main">
+        <header class="container-fluid">
+            <div class="flex-container-row">
+                <div>
+                    <a href="" target="_blank">
+                        <img src="logo.png" alt="keshav logo" height="140px" width="auto" />
+                    </a>
+                </div>
+                <div>
+                    <h1>Keshav Mahavidyalaya</h1>
+                    <div id="du">(DELHI UNIVERSITY)</div>
+                    <div class="flex-container-coloumn">
+                        <div>NAAC ACCREDITED INSTITUTION-<span class="orange">"A" </span>GRADE</div>
+                        <div>Estd. in 1994.Wholly founded by Govt. of NCT Delhi </div>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#" target=""><span class="orange"><i class="fa fa-home"></i>&nbspHome</span></a></li>
+                        <li><a href="#" target=""><i class="fa fa-address-book-o"></i>&nbspContact Us</a></li>
+                        <li><a href="#" target=""><i class="fa fa-sign-in"></i>&nbspFaculty Login</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>                        
+                                 </button>
+                    <div class="navbar-brand close-button" onclick="Navstate(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="# ">college profile </a>
+                            <ul class="dropdown-menu">
+                                <li><a href=" " target=" ">about us</a></li>
+                                <li><a href=" " target=" ">history</a></li>
+                                <li><a href=" " target=" ">infrastructure</a></li>
+                                <li><a href=" " target=" ">facilities</a></li>
+                                <li><a href=" " target=" ">girls hostel</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="# ">departments</a>
+                            <ul class="dropdown-menu">
+                                <li><a href=" " target=" ">CHEMISTRY</a></li>
+                                <li><a href=" " target=" ">COMMERCE</a></li>
+                                <li><a href=" " target=" ">COMPUTER SCIENCE</a></li>
+                                <li><a href=" " target=" ">ELECTRONICS</a></li>
+                                <li><a href=" " target=" ">ENGLISH</a></li>
+                                <li><a href=" " target=" ">MANAGEMENT STUDIES</a></li>
+                                <li><a href=" " target=" ">MATHEMATICS</a></li>
+                                <li><a href=" " target=" ">PHYSICAL EDUCATION</a></li>
+                                <li><a href=" " target=" ">PHYSICS</a></li>
+                                <li><a href=" " target=" ">PSYCHOLOGY</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="# ">courses</a>
+                            <ul class="dropdown-menu">
+                                <li class="sub-dropdown"><a href="# ">UNDER-GRADUATE PROGRAMME</a>
+                                    <div class="submenu">
+                                        <a href=" " target=" ">B.M.S</a>
+                                        <a href=" " target=" ">B.COM.&nbsp(HONS)</a>
+                                        <a href=" " target=" ">B.Sc&nbsp(HONS)&nbspCOMPUTER SCIENCE</a>
+                                        <a href=" " target=" ">B.Sc.&nbsp(HONS)&nbspELECTRONICS</a>
+                                        <a href=" " target=" ">B.Sc.&nbsp(HONS)&nbspMATHEMATICS</a>
+                                        <a href=" " target=" ">B.SC.&nbspPHYSICAL&nbspSCIENCES&nbspWITH&nbspCOMPUTER</a>
+                                        <a href=" " target=" ">B.Sc.&nbsp(HONS)&nbspPHYSICS</a>
+                                        <a href=" " target=" ">B.A.&nbsp(HONS)&nbspPSYCHOLOGY</a>
+                                        <a href=" " target=" ">B.Sc.&nbsp(G)&nbspMATHEMATICAL&nbspSCIENCE</a>
+                                    </div>
+                                </li>
+                                <li><a href=" " target=" ">CERTIFICATE COURSES</a></li>
+                                <li><a href=" " target=" ">RADIO BROADCASTING</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="# ">hostel</a>
+                            <ul class="dropdown-menu">
+                                <li><a href=" " target=" ">ADMINISTRATION</a></li>
+                                <li><a href=" " target=" ">ABOUT HOSTEL</a></li>
+                                <li><a href=" " target=" ">INFRASTUCTURE</a></li>
+                                <li><a href=" " target=" ">HOSTEL FACILITIES</a></li>
+                                <li><a href=" " target=" ">HOSTEL ADMISSION</a></li>
+                                <li><a href=" " target=" ">HOSTEL FEE</a></li>
+                                <li><a href=" " target=" ">HOSTEL MESS</a></li>
+                                <li><a href=" " target=" ">RULES & REGULATION</a></li>
+                                <li><a href=" " target=" ">VACATIONS & LEAVE</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">admision</a>
+                            <ul class="dropdown-menu">
+                                <li><a href=" " target=" ">ADMISSION INFORMATION</a></li>
+                                <li><a href=" " target=" ">FEE STRUCTURE</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">administration</a>
+                            <ul class="dropdown-menu">
+                                <li><a href=" " target=" ">OFFICE OF THE PRINCIPAL</a></li>
+                                <li><a href=" " target=" ">OFFICE</a></li>
+                                <li><a href=" " target=" ">ACCOUNTS</a></li>
+                                <li><a href=" " target=" ">LIBRARY</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">student corner</a>
+                            <ul class="dropdown-menu">
+                                <li><a href=" " target=" ">NOTICES</a></li>
+                                <li class="sub-dropdown"><a href=" " target=" ">ACTIVITIES</a>
+                                    <div class="submenu">
+                                        <a href=" " target=" ">SOCIETIES</a>
+                                        <a href=" " target=" ">CLUBS</a>
+                                        <a href=" " target=" ">SPORTS</a>
+                                        <a href=" " target=" ">NSS</a>
+                                        <a href=" " target=" ">WDC</a>
+                                        <a href=" " target=" ">EVENTS</a>
+                                        <a href=" " target=" ">PLACEMENT</a>
+                                        <a href=" " target=" ">MAGAZINE</a>
+                                    </div>
+                                </li>
+                                <li><a href=" " target=" ">TEACHING PLAN</a></li>
+                                <li><a href=" " target=" ">COMPLAINTS</a></li>
+                                <li><a href=" " target=" ">DOWNLOADS</a></li>
+                                <li><a href=" " target=" ">STUDENT FEEDBACK</a></li>
+                                <li><a href=" " target=" ">PARENT FEEDBACK</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="# ">misc. link</a>
+                            <ul class="dropdown-menu">
+                                <li><a href=" " target=" ">GOVERNING BODY</a></li>
+                                <li><a href=" " target=" ">RIGHT TO INFORMATION (RTI)</a></li>
+                                <li><a href=" " target=" ">TEACHING ROSTER</a></li>
+                                <li><a href=" " target=" ">NON TEACHING ROSTER</a></li>
+                                <li><a href=" " target=" ">STAFF COUNCIL COMMITTEES</a></li>
+                                <li><a href=" " target=" ">NAAC COMMITTEES</a></li>
+                                <li><a href=" " target=" ">ALUMNI</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item">
+                    <img alt="First slide" src="3.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h4>COLLEGE ENTERANCE</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img alt="Second slide" src="7.png">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h4> GIRL'S HOSTEL </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item active">
+                    <img alt="Third slide" src="8.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h4>AMPHITHEATER</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+
+        <div class="flex-container-row1">
+
+            <div class="sub-container" id="principal">
+                <div class="head">
+                    Principal's Message
+                </div>
+                <div class="content" id="principal">
+                    <img src="principle.jpg" alt="principal" class="img-responsive img-circle" />
+                    <div>
+                        Keshav Mahavidyalaya is one of the youngest colleges of Delhi University in terms of its inception, but is also one of the best off-campus co-ed colleges that has carved a niche for itself by garnering University positions year after year, with 92 university
+                        positions till date.
+                    </div>
+                    <div class="quote">"Often, education is not about becoming a new person, but becoming the person you were meant to be, and already are, but don’t know how to be.”
+                        <br/><br/><span>Heath L. Buckmaster</span></div>
+                </div>
+            </div>
+
+            <div class="sub-container" id="currentnews">
+                <div class="head">
+                    <span class="glyphicon glyphicon-th-list"></span>&nbsp&nbspNews and Updates
+                </div>
+                <div class="content">
+                    <marquee width="100%" height="300px" direction="up" scrollamount="3" onmouseover="stop()" onmouseout="start()">
+                        <ul>
+                            <li><a href=" " target=" "><i class="fa fa-spinner fa-spin"></i>&nbsp&nbspStudents Notice regarding Generic Elective</a></li>
+                            <li><a href=" " target=" "><i class="fa fa-spinner fa-spin"></i>&nbsp&nbspList of Generic Elective Sem II Students 2017-18</a></li>
+                            <li><a href=" " target=" "><i class="fa fa-spinner fa-spin"></i>&nbsp&nbspList of Generic Elective Sem IV Students 2017-18</a></li>
+                            <li><a href=" " target=" "><i class="fa fa-spinner fa-spin"></i>&nbsp&nbspKeshav Alumni Reunion Celebration 23rd Dec 2017	</a></li>
+                            <li><a href=" " target=" "><i class="fa fa-spinner fa-spin"></i>&nbsp&nbspMeeting of Keshav Alumni is scheduled 23rd Dec 2017	</a></li>
+                            <li><a href=" " target=" "><i class="fa fa-spinner fa-spin"></i>&nbsp&nbspNotice for Payment of 2nd Installment of Hostel Fee	</a></li>
+                            <li><a href=" " target=" "><i class="fa fa-spinner fa-spin"></i>&nbsp&nbspKeshav Alumni meet, December 2017</a></li>
+                            <li><a href=" " target=" "><i class="fa fa-spinner fa-spin"></i>&nbsp&nbspNotice For Students</a></li>
+                            <li><a href=" " target=" "><i class="fa fa-spinner fa-spin"></i>&nbsp&nbspWebsite Creation Competition</a></li>
+                        </ul>
+                    </marquee>
+                </div>
+            </div>
+
+            <div class="flex-container-row2">
+                <div class="sub-container">
+                    <div class="head">
+                        Vision
+                    </div>
+                    <div class="content">
+                        To be a premier institute that nurtures creativity amongst students and instill moral values along with quality education to enable them to take on real life challenges with confidence.
+                    </div>
+                </div>
+                <div class="sub-container">
+                    <div class="head">
+                        Mission
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li><span class="fa fa-hand-o-right"></span>&nbsp&nbspTo inculcate positivity in attitude and thought.</li>
+                            <li><span class="fa fa-hand-o-right"></span>&nbsp&nbspTo nurture creativity and problem solving skills.</li>
+                            <li><span class="fa fa-hand-o-right"></span>&nbsp&nbspTo sensitize students toward gender issues and respect for all human beings.</li>
+                            <li><span class="fa fa-hand-o-right"></span>&nbsp&nbspTo bring about awareness related to ecological enrichment and environmental factors.</li>
+                            <li><span class="fa fa-hand-o-right"></span>&nbsp&nbspTo encourage students to have vision and courage to initiate and manage change.</li>
+                            <li><span class="fa fa-hand-o-right"></span>&nbsp&nbspTo help in recognizing the challenges of a competitive world and learn to adapt.</li>
+                            <!-- <li>To create a clean and conducive atmosphere for the promotion of education.</li>
+                            <li>To give impetus to women empowerment.</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-container">
+                <div class="head">
+                    Girl's Hostel
+                </div>
+                <div class="content">
+                    <img src="7.png" alt="principal" class="img-responsive" />
+                    <div>
+                        Keshav Mahavidyalaya has a spacious and comfortable Girls' Hostel, located in the college campus with a capacity of 78 Students on twin sharing basis. Equipped with all basic and necessary facilities, the hostel provides its residents many opportunities
+                        to fulfill their academic, cultural, and social needs.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="">
+                        <img src="University_of_Delhi.png" alt="">
+                        <h5>UNIVERSITY OF DELHI</h5>
+                    </a>
+
+                </div>
+                <div class="col-sm-3 left-align">
+                    <h5>QUICK LINKS</h5>
+                    <ul>
+                        <li><a href=" " target=" ">SOCIETIES</a></li>
+                        <li><a href=" " target=" ">SPORTS</a></li>
+                        <li><a href=" " target=" ">TIMETABLE</a></li>
+                        <li><a href=" " target=" ">NSS</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 left-align">
+                    <h5>DOWNLOAD LINKS</h5>
+                    <ul>
+                        <li><a href="">NIRF 2017</a></li>
+                        <li><a href="">Self-Study Report, 2015</a></li>
+                        <li><a href="">NIRF Data Submission Report 2012-15</a></li>
+                        <li><a href="">AQAR 2016-17</a></li>
+
+                    </ul>
+                </div>
+
+
+                <div class="col-sm-3">
+                    <a href="">
+                        <img src="ncweb.png" alt="">
+                        <h5>NCWEB</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="last">
+                <a href="">Disclaimer</a>
+                <a href="">Contact us</a>
+                <a href="">Map</a>
+                <p>@copyright 2018 || Designed by Rahul Gupta & Tanya Garg</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
