@@ -1,7 +1,7 @@
-# KESHAV MAHAVIDYALYA
+# KESHAV MAHAVIDYALYA 🏛️
 Landing Page for college website-competition
 
-## Screenshots
+# Screenshots
 ### screen 1
 
 <img height="1000px" src="https://user-images.githubusercontent.com/35486010/72083789-638b3f80-3328-11ea-9c59-e521673a60be.png" />
